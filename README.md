@@ -6,6 +6,10 @@
 
 Your modern task management application made with flutter and GetX.
 
+## Try the app
+
+To try the app please visit the [releases](https://github.com/PIKO9545/Tasky/releases/tag/v1.0.0) page.
+
 ## Architecture
 
 In this app the MVC architecture was used.
