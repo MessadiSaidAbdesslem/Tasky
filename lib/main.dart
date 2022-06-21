@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         title: 'Todo List Using GetX',
         home: const HomePage(),
         initialBinding: HomeBinding(),
+        theme: ThemeData(scaffoldBackgroundColor: Colors.white),
         builder: EasyLoading.init(),
       ),
     );
