@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
-import 'package:task_app/app/core/utils/extensions.dart';
-import 'package:task_app/app/core/values/colors.dart';
-import 'package:task_app/app/modules/details/widgets/doing_list.dart';
-import 'package:task_app/app/modules/details/widgets/done_list.dart';
-import 'package:task_app/app/modules/home/controller.dart';
+import 'package:tasky/app/core/utils/extensions.dart';
+import 'package:tasky/app/core/values/colors.dart';
+import 'package:tasky/app/modules/details/widgets/doing_list.dart';
+import 'package:tasky/app/modules/details/widgets/done_list.dart';
+import 'package:tasky/app/modules/home/controller.dart';
 import 'package:sizer/sizer.dart';
 
 class DetailsPage extends StatelessWidget {

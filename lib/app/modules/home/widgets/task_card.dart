@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
-import 'package:task_app/app/core/utils/extensions.dart';
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/modules/details/view.dart';
-import 'package:task_app/app/modules/home/controller.dart';
+import 'package:tasky/app/core/utils/extensions.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/modules/details/view.dart';
+import 'package:tasky/app/modules/home/controller.dart';
 import 'package:sizer/sizer.dart';
 
 class TaskCard extends StatelessWidget {
@@ -41,7 +41,9 @@ class TaskCard extends StatelessWidget {
             StepProgressIndicator(
               totalSteps:
                   homeController.isTodosEmpty(task) ? 1 : task.todos!.length,
-              currentStep: homeController.getDoneTodoCount(task),
+              currentStep: homeController.isTodosEmpty(task)
+                  ? 0
+                  : homeController.getDoneTodoCount(task),
               size: 5,
               padding: 0,
               selectedGradientColor: LinearGradient(

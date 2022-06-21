@@ -2,11 +2,11 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:task_app/app/core/utils/extensions.dart';
-import 'package:task_app/app/core/values/colors.dart';
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/modules/home/controller.dart';
-import 'package:task_app/app/widgets/icons.dart';
+import 'package:tasky/app/core/utils/extensions.dart';
+import 'package:tasky/app/core/values/colors.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/modules/home/controller.dart';
+import 'package:tasky/app/widgets/icons.dart';
 import 'package:sizer/sizer.dart';
 
 class AddCard extends StatelessWidget {
@@ -41,7 +41,12 @@ class AddCard extends StatelessWidget {
                       },
                       controller: homeController.editController,
                       decoration: const InputDecoration(
-                          border: OutlineInputBorder(), labelText: 'Title'),
+                          floatingLabelStyle: TextStyle(
+                              color: blue, fontWeight: FontWeight.bold),
+                          focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: blue, width: 2)),
+                          border: OutlineInputBorder(),
+                          labelText: 'Title'),
                     ),
                   ),
                   Padding(

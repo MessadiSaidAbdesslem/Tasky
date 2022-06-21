@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:task_app/app/core/values/colors.dart';
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/modules/home/controller.dart';
+import 'package:tasky/app/core/values/colors.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/modules/home/controller.dart';
 import 'package:sizer/sizer.dart';
-import 'package:task_app/app/modules/home/widgets/add_card.dart';
-import 'package:task_app/app/modules/home/widgets/add_dialog.dart';
-import 'package:task_app/app/modules/home/widgets/task_card.dart';
-import 'package:task_app/app/modules/report/view.dart';
+import 'package:tasky/app/modules/home/widgets/add_card.dart';
+import 'package:tasky/app/modules/home/widgets/add_dialog.dart';
+import 'package:tasky/app/modules/home/widgets/task_card.dart';
+import 'package:tasky/app/modules/report/view.dart';
 
 class HomePage extends GetView<HomeController> {
   const HomePage({Key? key}) : super(key: key);

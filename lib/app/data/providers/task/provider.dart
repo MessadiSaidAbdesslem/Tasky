@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:task_app/app/core/utils/keys.dart';
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/data/services/storage/services.dart';
+import 'package:tasky/app/core/utils/keys.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/data/services/storage/services.dart';
 
 class TaskProvider {
   final _storage = Get.find<StorageService>();

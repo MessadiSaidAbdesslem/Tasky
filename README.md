@@ -1,16 +1,27 @@
-# task_app
+# Tasky
 
-A new Flutter project.
+<p align="center">
+    <img src="./assets/logo.png" width=50>
+</p>
 
-## Getting Started
+Your modern task management application made with flutter and GetX.
 
-This project is a starting point for a Flutter application.
+## Architecture
 
-A few resources to get you started if this is your first Flutter project:
+In this app the MVC architecture was used.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+we have a task model that contains multiple todos, a title, an icon and a color. (as shown in the diagram below)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="./images/architecture.png">
+
+The provider communicates with the local storage service, and it's defined functions are used in the repository for a better abstraction.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

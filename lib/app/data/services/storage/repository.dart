@@ -1,5 +1,5 @@
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/data/providers/task/provider.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/data/providers/task/provider.dart';
 
 class TaskRepository {
   TaskProvider taskProvider;

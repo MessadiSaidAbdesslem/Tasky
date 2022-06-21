@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_app/app/core/values/colors.dart';
-import 'package:task_app/app/modules/home/controller.dart';
+import 'package:tasky/app/core/values/colors.dart';
+import 'package:tasky/app/modules/home/controller.dart';
 import 'package:sizer/sizer.dart';
 
 class DoneList extends StatelessWidget {

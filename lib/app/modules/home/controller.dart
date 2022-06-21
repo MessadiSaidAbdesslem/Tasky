@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import 'package:task_app/app/data/models/task.dart';
-import 'package:task_app/app/data/services/storage/repository.dart';
+import 'package:tasky/app/data/models/task.dart';
+import 'package:tasky/app/data/services/storage/repository.dart';
 
 class HomeController extends GetxController {
   TaskRepository taskRepository;
